@@ -1,0 +1,130 @@
+<section class="container py-4">
+    <div class="text-center mb-4">
+        <img src="icon.png" alt="Calendar Pricelist app icon" width="88" height="88" class="mb-3"/>
+        <h1 class="font-weight-bold mb-3" style="color: #714B67;">Calendar Pricelist</h1>
+        <p class="lead mb-3">Create price rules directly from your calendar.</p>
+        <p class="text-muted mb-4">Plan validity periods, review scheduled rules and manage pricing from Sales or Point of Sale in Odoo 17.</p>
+        <span class="badge badge-light border px-3 py-2 m-1">Odoo 17</span>
+        <span class="badge badge-light border px-3 py-2 m-1">Sales</span>
+        <span class="badge badge-light border px-3 py-2 m-1">Point of Sale</span>
+    </div>
+    <img src="banner.png" class="img-fluid d-block mx-auto rounded" width="1536" height="1024"
+         alt="Calendar Pricelist: create price rules from your calendar for Sales and Point of Sale"/>
+</section>
+
+<section class="container py-4">
+    <div class="text-center mb-4">
+        <h2 class="font-weight-bold" style="color: #714B67;">Your pricing schedule, at a glance</h2>
+        <p class="text-muted">Work with standard Odoo pricelist rules through a dedicated calendar.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="border rounded p-4 h-100">
+                <h3 class="h5 font-weight-bold" style="color: #714B67;">Create rules from the calendar</h3>
+                <p class="mb-0">Select an empty calendar date to open the rule form. Choose a pricelist, configure the price and confirm the validity period before saving.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="border rounded p-4 h-100">
+                <h3 class="h5 font-weight-bold" style="color: #714B67;">See validity periods</h3>
+                <p class="mb-0">Review dated rules across the calendar. Entries use the rule's start and end dates, with colors assigned by pricelist.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="border rounded p-4 h-100">
+                <h3 class="h5 font-weight-bold" style="color: #714B67;">Review and edit existing rules</h3>
+                <p class="mb-0">Open a calendar entry to inspect its pricing details. Edit the rule using Odoo's standard form and your existing access permissions.</p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="border rounded p-4 h-100">
+                <h3 class="h5 font-weight-bold" style="color: #714B67;">Access from Sales and POS</h3>
+                <p class="mb-0">Find Calender Price immediately after Pricelists under Products in both applications. Both menus open the same pricelist rule calendar.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-4">
+    <div class="text-center mb-4">
+        <h2 class="font-weight-bold" style="color: #714B67;">See the calendar in action</h2>
+        <p class="text-muted">Reference screenshot from the Odoo 19 edition, showing rules spanning multiple dates. The Odoo 17 interface may differ.</p>
+    </div>
+    <div class="border rounded p-2">
+        <a href="calendar_screenshot.png">
+            <img src="calendar_screenshot.png" class="img-fluid d-block mx-auto" width="1845" height="838"
+                 alt="Pricelist Rules monthly calendar with colored validity periods spanning September 2026"/>
+        </a>
+    </div>
+    <p class="text-center text-muted small mt-3">Select the screenshot to view it at full size. Example records are shown for illustration.</p>
+</section>
+
+<section class="container py-4">
+    <h2 class="text-center font-weight-bold mb-4" style="color: #714B67;">Add a pricelist rule in three steps</h2>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="border rounded p-4 h-100">
+                <p class="font-weight-bold mb-2" style="color: #714B67;">01 / Open the calendar</p>
+                <h3 class="h5">Go to Calender Price</h3>
+                <p class="mb-0">In Sales or Point of Sale, open Products &rarr; Calender Price. Navigate to the month you want to plan.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="border rounded p-4 h-100">
+                <p class="font-weight-bold mb-2" style="color: #714B67;">02 / Define the rule</p>
+                <h3 class="h5">Select a calendar date</h3>
+                <p class="mb-0">Click an empty date to open the creation form. Choose the pricelist and applicable products or categories, then enter the pricing details.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="border rounded p-4 h-100">
+                <p class="font-weight-bold mb-2" style="color: #714B67;">03 / Save the schedule</p>
+                <h3 class="h5">Confirm the validity period</h3>
+                <p class="mb-0">Review the start date, end date and minimum quantity. Save the rule to display it in the calendar.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-4">
+    <div class="border rounded p-4">
+        <h2 class="h3 font-weight-bold mb-3" style="color: #714B67;">Setup and requirements</h2>
+        <ol class="pl-4 mb-4">
+            <li class="mb-2">Install Calendar Pricelist on Odoo 17. The module depends on Sales Management and Point of Sale.</li>
+            <li class="mb-2">Enable Pricelists in Sales settings and ensure users have the appropriate application and pricelist permissions.</li>
+            <li class="mb-2">Open Products &rarr; Calender Price from Sales or Point of Sale.</li>
+            <li>Set start and end dates on rules you want to review as calendar periods.</li>
+        </ol>
+        <p class="mb-2"><strong>Pricing behavior:</strong> Rules continue to use Odoo's standard pricing calculations. For POS, configure the relevant pricelists in your Point of Sale settings.</p>
+        <p class="mb-2"><strong>Access:</strong> Creating and editing rules requires the corresponding Odoo permissions. The module does not grant additional access rights.</p>
+        <p class="mb-0"><strong>Hosting:</strong> Requires an environment that supports custom addons, such as Odoo.sh or an on-premise installation.</p>
+    </div>
+</section>
+
+<section class="container py-4">
+    <h2 class="text-center font-weight-bold mb-4" style="color: #714B67;">Frequently asked questions</h2>
+    <div class="border-bottom pb-3 mb-3">
+        <h3 class="h5 font-weight-bold">Can I add a rule without leaving the calendar?</h3>
+        <p class="mb-0">Yes. Select an empty calendar date to open the full pricelist rule form and create the rule.</p>
+    </div>
+    <div class="border-bottom pb-3 mb-3">
+        <h3 class="h5 font-weight-bold">Why is a rule missing from the calendar?</h3>
+        <p class="mb-0">Check its validity dates, the calendar's displayed period and any active search filters. Rules without a start date cannot be placed on the calendar.</p>
+    </div>
+    <div class="border-bottom pb-3 mb-3">
+        <h3 class="h5 font-weight-bold">Are the Sales and Point of Sale calendars separate?</h3>
+        <p class="mb-0">Both menus open the same action for pricelist rules. The records shown depend on your access permissions and search filters.</p>
+    </div>
+    <div>
+        <h3 class="h5 font-weight-bold">Does this add a screen to the POS checkout?</h3>
+        <p class="mb-0">The calendar is available in the Point of Sale backend, under Products. It manages standard pricelist rules.</p>
+    </div>
+</section>
+
+<section class="container py-4">
+    <div class="border rounded text-center p-4">
+        <h2 class="h3 font-weight-bold mb-3" style="color: #714B67;">Need help?</h2>
+        <p class="mb-2">Contact Mitchel Admin for module questions or technical support.</p>
+        <a href="mailto:erpmitchellodoo@gmail.com" style="color: #714B67;">erpmitchellodoo@gmail.com</a>
+    </div>
+</section>
